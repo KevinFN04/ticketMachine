@@ -84,12 +84,18 @@ public class TicketMachine
      price = newPrice; 
        
     }
+    /**
+     * Imprimir mensaje para pedir que inserten el dinero correcto.
+     */
     public void prompt()
     {
      System.out.println("Please, insert the correct amount of money");
      
     }
     
+    /**
+     * Imprimir el precio actual del ticket.
+     */
     public void showPrice()
     {
      System.out.println("The price of a ticket is " + price + " cents.");
